@@ -32,7 +32,6 @@
             com/currency_exchange/CurrencyExchangeApplication.class
         </sonar.exclusions>
         <sonar.host.url>http://localhost:9000</sonar.host.url>
-        <sonar.login>token</sonar.login>
     </properties>
 
     <dependencies>

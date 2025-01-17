@@ -74,7 +74,8 @@ mvn test jacoco:report
 
 ### SonarQube analysis
 ```
-mvn sonar:sonar
+mvn sonar:sonar -Dsonar.login=sqa_e4b38402cea0243c9260605e0f4344f4252f8a5d
+ps: you should generate your own token for sonar see below
 ```
 
 ### Run checkstyle
@@ -93,7 +94,10 @@ mvn spotbugs:check
 
 JaCoCo: target/site/jacoco/index.html
 
-SonarQube: http://localhost:9000/dashboard
+SonarQube: http://localhost:9000/dashboard 
+first username: admin 
+first password: admin (then you should change them)
+After that you can create a token 
 
 ## External API
 Exchange rates from ExchangeRate-API:
