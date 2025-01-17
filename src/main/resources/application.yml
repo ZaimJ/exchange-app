@@ -1,0 +1,25 @@
+server:
+  port: 9090
+  servlet:
+    context-path: /api
+
+spring:
+  cache:
+    cache-names: exchangeRates
+    caffeine.spec:
+      expireAfterWrite: 1h
+  security:
+    user:
+      name: ${SECURITY_USER}
+      password: ${SECURITY_PASSWORD}
+
+springdoc:
+  swagger-ui:
+    path: /swagger-ui/index.html
+  api-docs:
+    path: /v3/api-docs
+
+exchange:
+  api:
+    url: ${EXCHANGE_API_URL}
+    key: ${EXCHANGE_API_KEY}

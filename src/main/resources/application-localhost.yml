@@ -1,0 +1,25 @@
+server:
+  port: 9080
+  servlet:
+    context-path: /api
+
+spring:
+  cache:
+    cache-names: exchangeRates
+    caffeine.spec:
+      expireAfterWrite: 1h
+  security:
+    user:
+      name: user
+      password: password
+
+springdoc:
+  swagger-ui:
+    path: /swagger-ui/index.html
+  api-docs:
+    path: /v3/api-docs
+
+exchange:
+  api:
+    url: https://open.er-api.com/v6/latest
+    key: 'bf06be2714b44e11952219d404e95a7a'
