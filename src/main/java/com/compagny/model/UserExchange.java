@@ -1,5 +1,7 @@
+/**
+ * Package containing domain model classes.
+ */
 package com.compagny.model;
-
 
 import com.compagny.model.type.UserType;
 import lombok.AllArgsConstructor;

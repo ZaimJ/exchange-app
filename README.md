@@ -1,5 +1,8 @@
 # Currency Exchange Calculator Service
 
+## UML Class Diagram
+![UML](docs/images/uml.png)
+
 ## Technologies
 - Java 21
 - Spring Boot 3.2
@@ -37,7 +40,7 @@ mvn spring-boot:run
 ```
 ## Run with profile
 ```
-mvn spring-boot:run -Dspring.profiles.active=localhost
+mvn spring-boot:run -Dspring-boot.run.profiles=localhost
 ```
 
 ### API Documentation
@@ -82,10 +85,6 @@ ps: you should generate your own token for sonar see below
 ```
 mvn checkstyle:check
 ```
-### Run PMD
-```
-mvn pmd:check
-```
 ### Run SpotBugs
 ```
 mvn spotbugs:check
@@ -104,4 +103,3 @@ Exchange rates from ExchangeRate-API:
 
 - Endpoint: https://open.er-api.com/v6/latest/{base_currency}
 - Cached for 1 hour
-

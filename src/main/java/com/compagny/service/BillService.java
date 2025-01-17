@@ -1,3 +1,6 @@
+/**
+ * Package containing service interfaces and implementations.
+ */
 package com.compagny.service;
 
 import com.compagny.dto.BillRequest;

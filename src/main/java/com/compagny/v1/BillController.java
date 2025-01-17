@@ -1,5 +1,7 @@
+/**
+ * Pakcage containing REST API controllers.
+ */
 package com.compagny.v1;
-
 import com.compagny.dto.BillRequest;
 import com.compagny.dto.BillResponse;
 import com.compagny.service.BillService;

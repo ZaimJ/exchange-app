@@ -1,3 +1,6 @@
+/**
+ * Package containing DTO.
+ */
 package com.compagny.dto;
 
 import lombok.AllArgsConstructor;

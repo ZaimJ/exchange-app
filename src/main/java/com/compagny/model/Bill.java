@@ -1,3 +1,6 @@
+/**
+ * Package containing domain model classes.
+ */
 package com.compagny.model;
 
 

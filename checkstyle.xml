@@ -1,0 +1,39 @@
+<?xml version="1.0"?>
+<!DOCTYPE module PUBLIC "-//Puppy Crawl//DTD Check Configuration 1.2//EN"
+        "http://www.puppycrawl.com/dtds/configuration_1_2.dtd">
+<module name="Checker">
+    <property name="severity" value="warning"/>
+
+    <module name="JavadocPackage">
+        <property name="severity" value="ignore"/>
+    </module>
+
+    <module name="LineLength">
+        <property name="severity" value="ignore"/>
+    </module>
+
+    <module name="TreeWalker">
+        <module name="JavadocMethod">
+            <property name="severity" value="ignore"/>
+        </module>
+        <module name="JavadocVariable">
+            <property name="severity" value="ignore"/>
+        </module>
+        <module name="DesignForExtension">
+            <property name="severity" value="ignore"/>
+        </module>
+        <module name="FinalParameters">
+            <property name="severity" value="ignore"/>
+        </module>
+        <module name="NeedBraces">
+            <property name="severity" value="ignore"/>
+        </module>
+        <module name="OperatorWrap">
+            <property name="severity" value="ignore"/>
+        </module>
+    </module>
+
+    <module name="NewlineAtEndOfFile">
+        <property name="severity" value="ignore"/>
+    </module>
+</module>
